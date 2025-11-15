@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/R05VM8Rg)
 # IIT-Madras-DA2401-Machine-Learning-Lab-End-Semester-Project
 
 ## 📌 Purpose of this Template
@@ -19,13 +20,15 @@ This repository is the **starter** for your End Semester Project submission in G
 
 * Describe your repository structure here. Explain about overall code organization.
 
----
+There are 4 files which are : main.py , algorithms.py , lab_endsem_report.pdf,main_1.py.
+algorithms.py has implementation of 4 different models/methods
+main.py has complete implementation of the best model that I got after hyper-parameter tuning. The training has been done one MNIST.train.csv and tested on MNIST.validation.csv, all the outputs are displayed in the main.py file itself.Please don't consider main_1.py file it is by mistake and I couldn't delete it.
 
 ## 📦 Installation & Dependencies
 
 * Mention all the related instructions for installation of related packages for running your code here.
 
----
+usage of random , numpy , pandas, time , math ,collections has been done in the py files
 
 ## ▶️ Running the Code
 
@@ -35,15 +38,14 @@ All experiments should be runnable from the command line **and** reproducible in
 
 * Mention the instructions to run you .py files.
   
----
+just press run and both should run
 
-## You can further add your own sections/titles along with corresponding contents here:
-
----
+## You can further add your own sections/titles along with corresponding contents here
+The code is ready to run in the 2 py files, Download  MNIST_train.csv and MNIST_validation.csv and read them using pandas.
 
 ## 🧾 Authors
 
-**<Name, Roll No.>**, IIT Madras (2025–26)
+**Dhanush DA24B019**, IIT Madras (2025–26)
 
 
 ## Best Practices:
